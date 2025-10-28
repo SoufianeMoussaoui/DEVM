@@ -1,0 +1,62 @@
+
+Exercice 2:
+var visible partout
+ReferenceError: b is not defined
+
+Exercice 3:
+Bonjour Alice
+Bonjour Bob
+
+Exercice 4:
+Bonjour Sara
+Bonjour undefined
+
+Exercice 5:
+[ 'pomme', 'banane', 'orange' ]
+
+Exercice 6:
+[ 2, 4, 6, 8, 10 ]
+[ 2, 4 ]
+15
+
+Exercice 7:
+4
+false
+true
+
+Exercice 8:
+Ali habite a Rabat
+Ali
+{ id: 1, city: 'Rabat' }
+
+Exercice 9:
+Opération terminée ! (apres 2 secondes)
+
+Exercice 10:
+[Tableau des utilisateurs de l'API] ou Erreur: fetch failed (si pas de connexion internet)
+
+Exercice 11:
+Bonjour Nadia, il est [heure actuelle]h
+
+Exercice 12:
+[ 1, 2, 3, 4 ]
+10
+
+Exercice 13:
+light
+x@y.com
+undefined
+
+Gestion des produits:
+Produits valides : [
+  { nom: 'Lait', prix: 10, expirele: '2025-12-01' },
+  { nom: 'Jus', prix: 8, expirele: '2026-02-15' }
+]
+Total : 18 DH
+
+Explications des erreurs:
+- Exercice 1: const ne permet pas la reassignation {TypeError: Assignment to constant variable}
+- Exercice 2: let a une portee de bloc, var a une portee de fonction
+- Exercice 4: les fonctions flechees n'ont pas leur propre this
+- Exercice 10: necessite une connexion internet pour fonctionner
+- Exercice 13: ?? utilise la valeur par defaut si null/undefined, ?. evite les erreurs si propriete inexistante
